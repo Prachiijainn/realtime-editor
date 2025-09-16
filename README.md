@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+Collaborative Code Editor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A real-time, online code editor that lets multiple users collaborate, edit, and run code together—just like Google Docs, but for programming. Perfect for coding interviews, pair programming, hackathons, or remote learning.
 
-## Available Scripts
+✨ Features
 
-In the project directory, you can run:
+📝 Real-time Collaboration – Multiple users can edit the same code file at once.
 
-### `npm start`
+⚡ Code Execution – Run code instantly with backend support for multiple languages.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🎨 Modern UI – Clean, responsive, and distraction-free interface.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🔒 Authentication – Secure login to join or create coding sessions.
 
-### `npm test`
+📂 Room-based Sessions – Create/join rooms with unique links for collaboration.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+💬 Live Chat – Chat alongside coding for better communication.
 
-### `npm run build`
+🌙 Themes & Syntax Highlighting – Dark/light mode with syntax highlighting.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Frontend: React / Next.js, Tailwind CSS, CodeMirror / Monaco Editor
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Backend: Node.js, Express
 
-### `npm run eject`
+Real-time Collaboration: WebSockets (Socket.IO)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Code Execution: Docker / Judge0 API / custom backend
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Database: MongoDB / PostgreSQL (for users & sessions)
