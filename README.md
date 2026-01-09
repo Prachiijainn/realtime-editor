@@ -2,17 +2,17 @@ Collaborative Code Editor
 
 A real-time, online code editor that lets multiple users collaborate, edit, and run code together—just like Google Docs, but for programming. Perfect for coding interviews, pair programming, hackathons, or remote learning.
 
-✨ Features
+ Features
 
-📝 Real-time Collaboration – Multiple users can edit the same code file at once.
+ Real-time Collaboration – Multiple users can edit the same code file at once.
 
-⚡ Code Execution – Run code instantly with backend support for multiple languages.
+ Code Execution – Run code instantly with backend support for multiple languages.
 
-🎨 Modern UI – Clean, responsive, and distraction-free interface.
+ Modern UI – Clean, responsive, and distraction-free interface.
 
-🔒 Authentication – Secure login to join or create coding sessions.
+ Authentication – Secure login to join or create coding sessions.
 
-📂 Room-based Sessions – Create/join rooms with unique links for collaboration.
+ Room-based Sessions – Create/join rooms with unique links for collaboration.
 
 💬 Live Chat – Chat alongside coding for better communication.
 
