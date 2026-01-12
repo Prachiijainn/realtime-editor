@@ -102,7 +102,7 @@ const EditorPage = () => {
                             alt="logo"
                         />
                     </div>
-                    <h3>Connected</h3>
+                    <h3>connected</h3>
                     <div className="clientsList">
                         {clients.map((client) => (
                             <Client
